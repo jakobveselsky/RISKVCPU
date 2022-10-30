@@ -1,0 +1,50 @@
+/* Arithmetic Logic Unit
+ --------------------------------------
+| ALU_SEL |   Operation   | Implention |
+ --------------------------------------
+|   000   | Addition      | ANS=A+B    |
+ --------------------------------------
+|   001   | Subtraction   | ANS=A-B    |
+ --------------------------------------
+|   010   | And           | ANS=A&B    |
+ --------------------------------------
+|   011   | Or            | ANS=A|B    |
+ --------------------------------------
+|   100   | Xor           | ANS=A^B    |
+ --------------------------------------
+|   101   | Barrel Shift L| ANS=A << 1 |
+ --------------------------------------
+|   110   | Barrel Shift R| ANS=A >> 1 |
+ --------------------------------------*/
+`timescale 1us/100ns
+module alu (A, B, ALU_SEL, ALU_ANS, SHIFT);
+  input [31:0]A,B; //32-bit inputs
+  input [3:0]ALU_SEL; //4-bit function selector
+  output [31:0]ALU_ANS; //32-bit output
+  wire [31:0] right_shift_ans;
+  reg [31:0] IDK;
+  input [31:0] SHIFT;
+  reg [31:0] idkSHIFT;
+  assign SHIFT= idkSHIFT;
+  assign ALU_ANS = IDK;
+  right_barrel_shifter shi(A, B, right_shift_ans);
+  
+  always @ (*)
+  begin
+    case(ALU_SEL)
+      4'b0000:
+        IDK = A + B ; //Addition
+      4'b0001:
+        IDK = A - B ; //Subtraction
+      4'b0010:
+        IDK = A & B ; //And
+      4'b0011: 
+        IDK = A | B ; //Or
+      4'b0100:
+        IDK = A ^ B ; //Xor
+      4'b0101:
+        idkSHIFT =  1'd1; //barrel shift L
+      default: IDK = A + B ; //Do addition by default
+    endcase
+  end
+endmodule

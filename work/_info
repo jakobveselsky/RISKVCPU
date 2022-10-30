@@ -1,0 +1,224 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/jakob/Quartus-lite-20.1.1.720-linux
+valu
+Z0 !s110 1666128369
+!i10b 1
+!s100 SA4JF`2Fg4KZ4Xn<RLQDm3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWYa0>`>;OCRjcXMQTI7lg1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/jakob/alu
+w1666128368
+8/home/jakob/alu/alu.v
+F/home/jakob/alu/alu.v
+!i122 159
+L0 20 31
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1666128369.000000
+!s107 /home/jakob/alu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/alu.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vbarrel_shifter
+!s110 1666126095
+!i10b 1
+!s100 ^OUCW?`H[S?7bdzN`IOb@3
+R1
+IE_>1i6_<e@TF8]MnT4GKb1
+R2
+R3
+w1666125213
+Z8 8/home/jakob/alu/barrel_shifter.v
+Z9 F/home/jakob/alu/barrel_shifter.v
+!i122 116
+L0 2 40
+R4
+r1
+!s85 0
+31
+!s108 1666126095.000000
+Z10 !s107 /home/jakob/alu/barrel_shifter.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/barrel_shifter.v|
+!i113 1
+R6
+R7
+Xbarrel_shifter_v_unit
+Z12 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z13 !s110 1666123810
+VfU[zzI4;dEc5goFoJb1CF2
+r1
+!s85 0
+!i10b 1
+!s100 PHUB^<aAeHad^AoALlR2J1
+IfU[zzI4;dEc5goFoJb1CF2
+!i103 1
+S1
+R3
+w1666126508
+R8
+R9
+!i122 100
+L0 41 0
+R4
+31
+Z14 !s108 1666123810.000000
+R10
+R11
+!i113 1
+R6
+R7
+vintroproj_tb
+R0
+!i10b 1
+!s100 5m9C6emMh?BCPMnhW@Blf2
+R1
+IHgQ@3hG5D2_J7OzR^E?XK0
+R2
+R3
+w1666128041
+8/home/jakob/alu/alu_tb.v
+F/home/jakob/alu/alu_tb.v
+!i122 161
+L0 2 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jakob/alu/alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/alu_tb.v|
+!i113 1
+R6
+R7
+vmux_2to1
+!s110 1666129160
+!i10b 1
+!s100 o=ANFoiE6<NY^UfI4TMIm0
+R1
+I35Me6TDhocF`df[IY7``Z1
+R2
+R3
+w1666125216
+Z15 8/home/jakob/alu/mux_2to1.v
+Z16 F/home/jakob/alu/mux_2to1.v
+!i122 133
+L0 2 17
+R4
+r1
+!s85 0
+31
+!s108 1666129160.000000
+Z17 !s107 /home/jakob/alu/mux_2to1.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/mux_2to1.v|
+!i113 1
+R6
+R7
+Xmux_2to1_v_unit
+R12
+R13
+V54W[FI3;5RVL]B6QbZ@ab1
+r1
+!s85 0
+!i10b 1
+!s100 H6bL;R><LDZO=cl^Qgz5g3
+I54W[FI3;5RVL]B6QbZ@ab1
+!i103 1
+S1
+R3
+w1666128102
+R15
+R16
+!i122 99
+L0 18 0
+R4
+31
+R14
+R17
+R18
+!i113 1
+R6
+R7
+vmux_32to1
+R0
+!i10b 1
+!s100 @D4Co`?RX7TDMeD^zJf5?0
+R1
+ImMIJ2dNNN^ehnhenYB`jU2
+R2
+R3
+w1666128526
+Z19 8/home/jakob/alu/mux_32to1.v
+Z20 F/home/jakob/alu/mux_32to1.v
+!i122 157
+L0 2 78
+R4
+r1
+!s85 0
+31
+R5
+Z21 !s107 /home/jakob/alu/mux_32to1.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/mux_32to1.v|
+!i113 1
+R6
+R7
+Xmux_32to1_v_unit
+R12
+!s110 1666125158
+Vdz1:LjTW8mQ@T0e:7@X_m1
+r1
+!s85 0
+!i10b 1
+!s100 G<RFEUBkd8K]bek5nj_SL1
+Idz1:LjTW8mQ@T0e:7@X_m1
+!i103 1
+S1
+R3
+w1666125157
+R19
+R20
+!i122 103
+L0 22 0
+R4
+31
+!s108 1666125158.000000
+R21
+R22
+!i113 1
+R6
+R7
+vright_barrel_shifter
+R0
+!i10b 1
+!s100 XUbmR>C853aLWKX79RV3h2
+R1
+I8[jk`jDNiIDTD:1h>3=eT3
+R2
+R3
+w1666129153
+R8
+R9
+!i122 158
+L0 2 39
+R4
+r1
+!s85 0
+31
+R5
+R10
+R11
+!i113 1
+R6
+R7

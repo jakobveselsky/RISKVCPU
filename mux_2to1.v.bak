@@ -1,0 +1,18 @@
+`timescale 1us/100ns
+module mux_2to1(in1, in2, out, switch);
+  input in1, in2, switch; //1-bit inputs and switch
+  output out; //1-bit output
+  reg tmp; //reg to save which input is selected
+  assign out = tmp; //assign out to be tmp reg 
+
+  always @ (*)
+  begin
+    case(switch)
+      1'b0:
+        tmp = in1; //ouput is input 1
+      1'b1:
+        tmp = in2; //output is input 2
+      default: tmp = in1; //defaults to input 1 is output
+    endcase
+  end
+endmodule;
