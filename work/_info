@@ -8,217 +8,280 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/jakob/Quartus-lite-20.1.1.720-linux
+Z0 d/home/jakob/RISKVCPU
 valu
-Z0 !s110 1666128369
+Z1 !s110 1667282633
 !i10b 1
 !s100 SA4JF`2Fg4KZ4Xn<RLQDm3
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IWYa0>`>;OCRjcXMQTI7lg1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 d/home/jakob/alu
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IY[BY]LTS7CzSAYM2SBHDG3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
 w1666128368
-8/home/jakob/alu/alu.v
-F/home/jakob/alu/alu.v
-!i122 159
+8/home/jakob/RISKVCPU/alu.v
+F/home/jakob/RISKVCPU/alu.v
+!i122 53
 L0 20 31
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1666128369.000000
-!s107 /home/jakob/alu/alu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/alu.v|
+Z5 !s108 1667282633.000000
+!s107 /home/jakob/RISKVCPU/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/alu.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
 vbarrel_shifter
-!s110 1666126095
+!s110 1667163684
 !i10b 1
-!s100 ^OUCW?`H[S?7bdzN`IOb@3
-R1
-IE_>1i6_<e@TF8]MnT4GKb1
+!s100 4:><=ZA2bhS_eNc9zXSd91
 R2
+I:NAU3k7@DME^jTJ]`G21i1
 R3
-w1666125213
-Z8 8/home/jakob/alu/barrel_shifter.v
-Z9 F/home/jakob/alu/barrel_shifter.v
-!i122 116
-L0 2 40
-R4
-r1
-!s85 0
-31
-!s108 1666126095.000000
-Z10 !s107 /home/jakob/alu/barrel_shifter.v|
-Z11 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/barrel_shifter.v|
-!i113 1
-R6
-R7
-Xbarrel_shifter_v_unit
-Z12 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z13 !s110 1666123810
-VfU[zzI4;dEc5goFoJb1CF2
-r1
-!s85 0
-!i10b 1
-!s100 PHUB^<aAeHad^AoALlR2J1
-IfU[zzI4;dEc5goFoJb1CF2
-!i103 1
-S1
-R3
-w1666126508
-R8
-R9
-!i122 100
-L0 41 0
-R4
-31
-Z14 !s108 1666123810.000000
-R10
-R11
-!i113 1
-R6
-R7
-vintroproj_tb
 R0
-!i10b 1
-!s100 5m9C6emMh?BCPMnhW@Blf2
+w1667161167
+8/home/jakob/RISKVCPU/barrel_shifter.v
+F/home/jakob/RISKVCPU/barrel_shifter.v
+!i122 29
+L0 82 39
+R4
+r1
+!s85 0
+31
+!s108 1667163684.000000
+!s107 /home/jakob/RISKVCPU/barrel_shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/barrel_shifter.v|
+!i113 1
+R6
+R7
+vcounter
 R1
-IHgQ@3hG5D2_J7OzR^E?XK0
+!i10b 1
+!s100 c3S^Hgda2MZB7^P;kKU5S2
 R2
+Ia>J;dd;EE1KZdL^?C<D1:2
 R3
-w1666128041
-8/home/jakob/alu/alu_tb.v
-F/home/jakob/alu/alu_tb.v
-!i122 161
-L0 2 21
+R0
+w1667163671
+8/home/jakob/RISKVCPU/program_counter.v
+F/home/jakob/RISKVCPU/program_counter.v
+!i122 52
+L0 2 15
 R4
 r1
 !s85 0
 31
 R5
-!s107 /home/jakob/alu/alu_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/alu_tb.v|
+!s107 /home/jakob/RISKVCPU/program_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/program_counter.v|
+!i113 1
+R6
+R7
+vdflop
+!s110 1667282634
+!i10b 1
+!s100 5@Z]<CZEeQ2GTMXXkRS^k1
+R2
+IXa1V5[L<53Jgb4=Bn@bQ11
+R3
+R0
+w1666123494
+8/home/jakob/Quartus-lite-20.1.1.720-linux/dff.v
+F/home/jakob/Quartus-lite-20.1.1.720-linux/dff.v
+!i122 56
+L0 3 16
+R4
+r1
+!s85 0
+31
+!s108 1667282634.000000
+!s107 /home/jakob/Quartus-lite-20.1.1.720-linux/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/Quartus-lite-20.1.1.720-linux/dff.v|
+!i113 1
+R6
+R7
+vintroproj_tb
+R1
+!i10b 1
+!s100 FnbDcP2_39aY<^S>^8go62
+R2
+I=T3QmJa@eI=cK5EoeZ=N22
+R3
+R0
+w1666127319
+8/home/jakob/RISKVCPU/intropro_tb.v
+F/home/jakob/RISKVCPU/intropro_tb.v
+!i122 55
+L0 2 26
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jakob/RISKVCPU/intropro_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/intropro_tb.v|
+!i113 1
+R6
+R7
+vleft_barrel_shifter
+R1
+!i10b 1
+!s100 U41Mzk4SDFb2Knon2?njQ2
+R2
+I6f5Q61LF[<9D4RDhCNP6i3
+R3
+R0
+w1667273624
+8/home/jakob/RISKVCPU/left_barrel_shifter.v
+F/home/jakob/RISKVCPU/left_barrel_shifter.v
+!i122 51
+Z8 L0 2 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/jakob/RISKVCPU/left_barrel_shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/left_barrel_shifter.v|
 !i113 1
 R6
 R7
 vmux_2to1
-!s110 1666129160
+R1
 !i10b 1
 !s100 o=ANFoiE6<NY^UfI4TMIm0
-R1
-I35Me6TDhocF`df[IY7``Z1
 R2
+I0_ZM31k747Lmo?k6OhYWI0
 R3
+R0
 w1666125216
-Z15 8/home/jakob/alu/mux_2to1.v
-Z16 F/home/jakob/alu/mux_2to1.v
-!i122 133
+8/home/jakob/RISKVCPU/mux_2to1.v
+F/home/jakob/RISKVCPU/mux_2to1.v
+!i122 48
 L0 2 17
 R4
 r1
 !s85 0
 31
-!s108 1666129160.000000
-Z17 !s107 /home/jakob/alu/mux_2to1.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/mux_2to1.v|
-!i113 1
-R6
-R7
-Xmux_2to1_v_unit
-R12
-R13
-V54W[FI3;5RVL]B6QbZ@ab1
-r1
-!s85 0
-!i10b 1
-!s100 H6bL;R><LDZO=cl^Qgz5g3
-I54W[FI3;5RVL]B6QbZ@ab1
-!i103 1
-S1
-R3
-w1666128102
-R15
-R16
-!i122 99
-L0 18 0
-R4
-31
-R14
-R17
-R18
+R5
+!s107 /home/jakob/RISKVCPU/mux_2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/mux_2to1.v|
 !i113 1
 R6
 R7
 vmux_32to1
-R0
+R1
 !i10b 1
 !s100 @D4Co`?RX7TDMeD^zJf5?0
-R1
-ImMIJ2dNNN^ehnhenYB`jU2
 R2
+I5IUB>5mZb>k=RThed:_XH1
 R3
+R0
 w1666128526
-Z19 8/home/jakob/alu/mux_32to1.v
-Z20 F/home/jakob/alu/mux_32to1.v
-!i122 157
+8/home/jakob/RISKVCPU/mux_32to1.v
+F/home/jakob/RISKVCPU/mux_32to1.v
+!i122 49
 L0 2 78
 R4
 r1
 !s85 0
 31
 R5
-Z21 !s107 /home/jakob/alu/mux_32to1.v|
-Z22 !s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/alu/mux_32to1.v|
+!s107 /home/jakob/RISKVCPU/mux_32to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/mux_32to1.v|
 !i113 1
 R6
 R7
-Xmux_32to1_v_unit
-R12
-!s110 1666125158
-Vdz1:LjTW8mQ@T0e:7@X_m1
+vone_bit_adder
+!s110 1667326624
+!i10b 1
+!s100 PC?U>HFf>1hnDS<58<T]`0
+R2
+I8eI11Eza585eQRnCA@?M10
+R3
+R0
+w1667326623
+8/home/jakob/RISKVCPU/one_bit_adder.v
+F/home/jakob/RISKVCPU/one_bit_adder.v
+!i122 58
+L0 2 46
+R4
 r1
 !s85 0
-!i10b 1
-!s100 G<RFEUBkd8K]bek5nj_SL1
-Idz1:LjTW8mQ@T0e:7@X_m1
-!i103 1
-S1
-R3
-w1666125157
-R19
-R20
-!i122 103
-L0 22 0
-R4
 31
-!s108 1666125158.000000
-R21
-R22
+!s108 1667326624.000000
+!s107 /home/jakob/RISKVCPU/one_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/one_bit_adder.v|
+!i113 1
+R6
+R7
+vone_bit_carry_look_ahead
+!s110 1667330718
+!i10b 1
+!s100 f1S<SKFEj9gHROTY_AhKB3
+R2
+IlL3aaeoK_M?4S:86U0YUf1
+R3
+R0
+w1667330717
+8/home/jakob/RISKVCPU/one_bit_carry_look_ahead.v
+F/home/jakob/RISKVCPU/one_bit_carry_look_ahead.v
+!i122 64
+L0 2 67
+R4
+r1
+!s85 0
+31
+!s108 1667330718.000000
+!s107 /home/jakob/RISKVCPU/one_bit_carry_look_ahead.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/one_bit_carry_look_ahead.v|
+!i113 1
+R6
+R7
+vone_bit_ripple_carry
+!s110 1667330688
+!i10b 1
+!s100 F`AQnKa6Zl3zPV;Yj9h^92
+R2
+Ic7@__RfckQKCD2<jO8CK^3
+R3
+R0
+w1667330362
+8/home/jakob/RISKVCPU/one_bit_ripple_carry.v
+F/home/jakob/RISKVCPU/one_bit_ripple_carry.v
+!i122 61
+L0 2 50
+R4
+r1
+!s85 0
+31
+!s108 1667330688.000000
+!s107 /home/jakob/RISKVCPU/one_bit_ripple_carry.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/one_bit_ripple_carry.v|
 !i113 1
 R6
 R7
 vright_barrel_shifter
-R0
+R1
 !i10b 1
 !s100 XUbmR>C853aLWKX79RV3h2
-R1
-I8[jk`jDNiIDTD:1h>3=eT3
 R2
+I:[`RTF?LzT`nO0U@R^:>n0
 R3
-w1666129153
+R0
+w1667172233
+8/home/jakob/RISKVCPU/right_barrel_shifter.v
+F/home/jakob/RISKVCPU/right_barrel_shifter.v
+!i122 50
 R8
-R9
-!i122 158
-L0 2 39
 R4
 r1
 !s85 0
 31
 R5
-R10
-R11
+!s107 /home/jakob/RISKVCPU/right_barrel_shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/jakob/RISKVCPU/right_barrel_shifter.v|
 !i113 1
 R6
 R7

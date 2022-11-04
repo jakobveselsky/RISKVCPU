@@ -1,0 +1,4 @@
+carry look ahead adder //need to know generate
+32 bit register, made of 32 dff
+program counter //need adder
+register file, 32 32-bit registers //need registers
